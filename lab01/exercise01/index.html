@@ -1,19 +1,92 @@
 <!DOCTYPE html>
+<!--告诉浏览器是会用html版本来显示网页-->
 <html lang="en">
+<!--根标签-->
+<!--显示语言-->
 
 <head>
+    <!--投标签-->
     <meta charset="UTF-8">
     <title>HTML Box Model</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .red {
+            height: 100px;
+            background-color: rgb(72, 0, 255);
+            text-align: center;
+            line-height: 100px;
+        }
+        
+        * {
+            color: aqua
+        }
+        
+        .green {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+        }
+        
+        h2 {
+            font: 20px "black";
+            text-align: center
+        }
+        
+        a {
+            color: chartreuse;
+        }
+        
+        #a {
+            height: 200px;
+            background-image: url(1.png);
+            background-repeat: repeat-y;
+        }
+        
+        div {
+            display: flex;
+            width: 800px;
+            color: fuchsia;
+            height: 300px;
+            flex-wrap: wrap;
+        }
+        
+        div span {
+            width: 150px;
+            height: 100px;
+            background-color: purple;
+            margin: 10px;
+        }
+        
+        section {
+            margin: auto;
+        }
+    </style>
 </head>
 
 <body>
+    <div>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>3</span>
+        <span>3</span>
+        <span>3</span>
+        <span>3</span>
+    </div>
 
+    <div class="p1"></div>
+    <div class="p2"></div>
+    <div class="p3"></div>
+
+    <div id="a">ssdsd</div>
     <section>
-        <h2>Card 1</h2>
+
+        <h2 class="red">Card 1</h2>
+        <iframe src="../exercise02/index.html">  </iframe>
+        <a> href="http://www.baidu.com" target="_block">百度</a>
         <img src="https://i.imgflip.com/efcqy.jpg" />
         <p>Lorem ipsum dolor sit amet, cu soluta concludaturque vim, summo voluptatibus ex sea. Est id aperiri offendit vulputate, legere malorum est et. Zril volutpat sit id, no aeterno apeirian mei.</p>
-        <button>Button</button>
+        <button id="dd">Button</button>
     </section>
 
 </body>
