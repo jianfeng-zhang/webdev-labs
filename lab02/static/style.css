@@ -30,7 +30,7 @@ main {
 }
 
 section {
-    width: calc(25%-10px);
+    width: 350px;
     margin: 10px;
     border: solid 1px #ccc;
     padding-bottom: 20px;
